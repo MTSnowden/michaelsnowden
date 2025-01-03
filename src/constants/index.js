@@ -4,7 +4,7 @@ import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 import texascale from '../assets/texascale-2019.png'
 import designsafe from '../assets/designsafe.jpeg'
-
+import restauraImg from '../assets/restauraImg.png'
 // Innovative software developer with comprehensive experience in full stack development and consulting. Proven
 // expertise in front-end design and implementation with React.js. Adept at translating complex requirements into
 // functional, high-quality code.
@@ -82,7 +82,7 @@ export const PROJECTS = [
   },
   {
     title: "Restaurant Landing Page",
-    image: project3,
+    image: restauraImg,
     description:
       "A modern and responsive a restaurant using React, Tailwind CSS, and the Framer Motion library.",
     URL: "https://restaura-gray.vercel.app/",
