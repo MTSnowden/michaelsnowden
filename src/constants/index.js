@@ -1,7 +1,3 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
 import texascale from '../assets/texascale-2019.png'
 import designsafe from '../assets/designsafe.jpeg'
 import restauraImg from '../assets/restauraImg.png'
