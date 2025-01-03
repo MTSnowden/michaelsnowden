@@ -80,7 +80,7 @@ export const PROJECTS = [
     title: "Restaurant Landing Page",
     image: restauraImg,
     description:
-      "A modern and responsive a restaurant using React, Tailwind CSS, and the Framer Motion library.",
+      "A modern and responsive restaurant landing page using React, Tailwind CSS, and the Framer Motion library.",
     URL: "https://restaura-gray.vercel.app/",
     technologies: ["React", "Tailwind CSS", "Framer Motion"]
   },
