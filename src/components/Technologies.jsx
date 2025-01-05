@@ -8,6 +8,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 import { motion } from "framer-motion";
+import { RiTailwindCssFill } from "react-icons/ri";
+
 
 const iconVariants = (duration) => ({
     initial: {y: -10},
@@ -75,7 +77,7 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <BiLogoPostgresql className="text-7xl text-sky-700"/>
+                <RiTailwindCssFill className="text-7xl text-sky-600"/>
             </motion.div>
             
         </motion.div>
