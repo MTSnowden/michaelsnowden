@@ -1,6 +1,8 @@
 import texascale from '../assets/texascale-2019.png'
 import designsafe from '../assets/designsafe.jpeg'
 import restauraImg from '../assets/restauraImg.png'
+import VR from '../assets/VR.png'
+
 // Innovative software developer with comprehensive experience in full stack development and consulting. Proven
 // expertise in front-end design and implementation with React.js. Adept at translating complex requirements into
 // functional, high-quality code.
@@ -84,13 +86,14 @@ export const PROJECTS = [
     URL: "https://restaura-gray.vercel.app/",
     technologies: ["React", "Tailwind CSS", "Framer Motion"]
   },
-  // {
-  //   title: "Blogging Platform",
-  //   image: project4,
-  //   description:
-  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-  //   technologies: ["HTML", "CSS", "Express", "mySQL"],
-  // },
+  {
+    title: "VR Development Platform",
+    image: VR,
+    description:
+      "A platform for creating and publishing virtual reality experiences. ",
+    URL: "https://virtual-r-tau-ruby.vercel.app/",
+    technologies: ["React", "Next.js", "Tailwind CSS"],
+  },
 ];
 
 export const CONTACT = {
