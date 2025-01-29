@@ -2,6 +2,7 @@ import texascale from '../assets/texascale-2019.png'
 import designsafe from '../assets/designsafe.jpeg'
 import restauraImg from '../assets/restauraImg.png'
 import VR from '../assets/VR.png'
+import ben from "../assets/ben.png"
 
 // Innovative software developer with comprehensive experience in full stack development and consulting. Proven
 // expertise in front-end design and implementation with React.js. Adept at translating complex requirements into
@@ -10,14 +11,13 @@ import VR from '../assets/VR.png'
 
 export const HERO_CONTENT = `I am an innovative software developer with comprehensive experience in crafting
  robust and scalable web applications. With three years of hands-on experience, I have honed my skills
-  in front-end technologies like React and Next.js, as well as back-end technologies like 
+  in front-end technologies like React and Tailwind CSS, as well as back-end technologies like 
   Node.js, MySQL and MongoDB. My goal is to leverage my expertise to create innovative 
   solutions that drive business growth and deliver exceptional user experiences.`;
 
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating 
-efficient and user-friendly web applications. I have worked with a variety of technologies 
-including React, Next.js, Node.js, MySQL, TypeScript, Git and MongoDB. My journey in
+efficient and user-friendly web applications.  My journey in
 web development began with a deep curiosity for how things work and it has evolved into a career where I 
 continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy 
 solving complex problems to deliver high-quality solutions. Outside of coding I enjoy staying active, 
@@ -67,6 +67,7 @@ export const PROJECTS = [
     description:
       "Researched, designed and coded website features and functionality using React.",
     URL: "https://texascale.org/2019/",
+    link: "https://texascale.org/2019/",
     technologies: ["HTML", "CSS", "React", "Node.js"],
     
   },
@@ -75,8 +76,9 @@ export const PROJECTS = [
     image: designsafe,
     description:
       "Designed and coded portal features for DesignSafe, a platform that enables research and educational advancements aimed at preventing natural hazard events from becoming societal disasters. ",
-          URL: "https://tacc.utexas.edu/research/tacc-research/designsafe/",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+    URL: "https://tacc.utexas.edu/research/tacc-research/designsafe/",
+    link: "https://tacc.utexas.edu/research/tacc-research/designsafe/",
+    technologies: ["HTML", "CSS", "DjangoCMS"],
   },
   {
     title: "Restaurant Landing Page",
@@ -84,15 +86,26 @@ export const PROJECTS = [
     description:
       "A modern and responsive restaurant landing page using React, Tailwind CSS, and the Framer Motion library.",
     URL: "https://restaura-gray.vercel.app/",
+    link: "https://restaura-gray.vercel.app/",
     technologies: ["React", "Tailwind CSS", "Framer Motion"]
   },
   {
     title: "VR Development Platform",
     image: VR,
     description:
-      "A platform for creating and publishing virtual reality experiences. ",
+      "A platform for creating and publishing virtual reality experiences built with React, Next.js and Tailwind CSS. ",
     URL: "https://virtual-r-tau-ruby.vercel.app/",
+    link: "https://virtual-r-tau-ruby.vercel.app/",
     technologies: ["React", "Next.js", "Tailwind CSS"],
+  },
+  {
+    title: "Portfolio Website",
+    image: ben,
+    description:
+      "A portfolio website built with React, Tailwind CSS and Framer Motion. ",
+    URL: "https://benson-psi.vercel.app/",
+    link: "https://benson-psi.vercel.app/",
+    technologies: ["React", "Tailwind CSS", "Framer Motion"],
   },
 ];
 

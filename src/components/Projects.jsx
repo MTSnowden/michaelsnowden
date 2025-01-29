@@ -16,6 +16,7 @@ const Projects = () => {
                 initial={{ opacity:0, x: -100 }}
                 transition={{ duration: 0.5 }}
                 className="w-full lg:w-1/4">
+                  
                     <img 
                         src={project.image} 
                         width={150} 
@@ -23,20 +24,22 @@ const Projects = () => {
                         alt={project.title} 
                         className="mb-6 rounded"
                     />
+                    
                 </motion.div>
                 <motion.div 
                 whileInView={{opacity: 1, x: 0}}
                 initial={{ opacity:0, x: 100 }}
                 transition={{ duration: 1 }}
                 className="w-full max-w-xl lg:w-3/4">
+                    
                     <h6 className="mb-2 font-semibold">{project.title}</h6>
                     <p className="mb-4 text-neutral-400">{project.description}</p>
-                    {/* <a href="https://texascale.org/2019/"> */}
-                        <p className="mb-4 text-neutral-400">{project.URL}</p>
-                    {/* </a> */}
+                    <a href={project.link}>
+                        <p className="mb-4 text-blue-300 underline hover:text-blue-500">{project.URL}</p>
+                    </a>
 
                     {project.technologies.map((tech, index) => (
-                        <span key={index} className="mr-2 bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
+                        <span key={index} className="mr-2 bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-700">
                             {tech}
                         </span>
                     ))}

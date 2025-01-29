@@ -37,7 +37,7 @@ const Hero = () => {
                     variants={container(1)}
                     initial="hidden"
                     animate="visible"
-                    className="my-2 max max-w-xl py-6 font-light tracking-tighter">
+                    className="my-2 max max-w-xl py-6 font-light text-2xl">
                         {HERO_CONTENT}
                     </motion.p>
                 </div>
@@ -45,12 +45,13 @@ const Hero = () => {
             <div className="w-full lg:w-1/2 lg:p-8 ">
                 <div className="flex justify-center">
                     <motion.img 
-                    initial={{ x: 100, opacity: 0}}
-                    animate={{ x: 0, opacity: 1}}
-                    transition={{ duration: 1, delay: 1.2}}
-                    className="pt-20" 
-                    src={mts} 
-                    alt="Michael Snowden" />
+                        initial={{ x: 100, opacity: 0}}
+                        animate={{ x: 0, opacity: 1}}
+                        transition={{ duration: 1, delay: 1.2}}
+                        className="pt-20" 
+                        src={mts} 
+                        alt="Michael Snowden"
+                    />
                 </div>
             </div>
         </div>
