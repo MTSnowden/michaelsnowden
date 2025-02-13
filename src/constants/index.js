@@ -26,7 +26,7 @@ exploring and producing music and hiking the local trails with my dog Luann.`;
 
 export const EXPERIENCES = [
   {
-    year: "2021 - 2022",
+    year: "01/2022 - 12/2023",
     role: "Application Development Analyst",
     company: "Accenture",
     description: `Designed and implemented dynamic web features using React.js, enhancing user engagement and functionality.
@@ -37,7 +37,7 @@ export const EXPERIENCES = [
     technologies: ["Javascript", "React.js", "Next.js", "Node.js"],
   },
   {
-    year: "2019 - 2020",
+    year: "08/2019 - 04/2020",
     role: "Software Development Trainee",
     company: "Texas Advanced Computing Center",
     description: `Developed and maintained full stack web applications connecting researchers to the Frontera
@@ -48,7 +48,7 @@ export const EXPERIENCES = [
     technologies: ["React", "Bootstrap", "Django CMS", "mongoDB"],
   },
   {
-    year: "2018 - 2019",
+    year: "09/2018 - 08/2019",
     role: "Apprentice",
     company: "Austin Coding Academy",
     description: `Designed and built new site features and wireframes for the academy's website, improving user experience
