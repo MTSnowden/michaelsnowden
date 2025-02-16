@@ -68,7 +68,7 @@ export const PROJECTS = [
       "Researched industry trends, designed and coded website features and functionality using React.",
     URL: "https://texascale.org/2019/",
     link: "https://texascale.org/2019/",
-    technologies: ["HTML", "CSS", "Django CMS", "Node.js"],
+    technologies: ["HTML", "CSS", "Django CMS"],
     
   },
   {
