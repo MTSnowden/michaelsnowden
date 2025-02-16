@@ -65,10 +65,10 @@ export const PROJECTS = [
     title: "TexaScale Magazine",
     image: texascale,
     description:
-      "Researched, designed and coded website features and functionality using React.",
+      "Researched industry trends, designed and coded website features and functionality using React.",
     URL: "https://texascale.org/2019/",
     link: "https://texascale.org/2019/",
-    technologies: ["HTML", "CSS", "React", "Node.js"],
+    technologies: ["HTML", "CSS", "Django CMS", "Node.js"],
     
   },
   {
