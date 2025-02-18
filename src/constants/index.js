@@ -65,7 +65,7 @@ export const PROJECTS = [
     title: "TexaScale Magazine",
     image: texascale,
     description:
-      "Researched industry trends, designed and coded website features and functionality using React.",
+      "Designed and coded TACC's annual publication site staying current with industry trends and implementing best practices.",
     URL: "https://texascale.org/2019/",
     link: "https://texascale.org/2019/",
     technologies: ["HTML", "CSS", "Django CMS"],
