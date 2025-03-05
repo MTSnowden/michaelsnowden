@@ -98,15 +98,15 @@ export const PROJECTS = [
     link: "https://virtual-r-tau-ruby.vercel.app/",
     technologies: ["React", "Next.js", "Tailwind CSS"],
   },
-  {
-    title: "Portfolio Website",
-    image: ben,
-    description:
-      "A portfolio website built with React, Tailwind CSS and Framer Motion. ",
-    URL: "https://benson-psi.vercel.app/",
-    link: "https://benson-psi.vercel.app/",
-    technologies: ["React", "Tailwind CSS", "Framer Motion"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: ben,
+  //   description:
+  //     "A portfolio website built with React, Tailwind CSS and Framer Motion. ",
+  //   URL: "https://benson-psi.vercel.app/",
+  //   link: "https://benson-psi.vercel.app/",
+  //   technologies: ["React", "Tailwind CSS", "Framer Motion"],
+  // },
 ];
 
 export const CONTACT = {
